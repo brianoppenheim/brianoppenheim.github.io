@@ -101,11 +101,11 @@
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
-                  <h4>Responsive Redesign of Hacker News</h4>
-                  <p>UI/UX<br/>Fall 2017</p>
+                  <h4>XML Search Engine with Pagerank</h4>
+                  <p>CS 180<br/>Spring 2017</p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/hacker-news.png" height = "650" width = "900" alt="">
+              <img class="img-fluid" src="img/portfolio/search.jpg" height = "650" width = "900" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -125,11 +125,35 @@
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
-                  <h4>Startup Redesign: Guggy</h4>
-                  <p>UI/UX<br/>Fall 2017</p>
+                  <h4>Racket Interpreter in Ocaml</h4>
+                  <p>CS 170<br/>Fall 2016</p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/guggerino.png" alt="">
+              <img class="img-fluid" src="img/portfolio/racketlang.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#modal5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                  <h4>Sequence to Sequence Translation: French -> English</h4>
+                  <p>Deep Learning<br/>Fall 2017</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/seq2seq.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#modal6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                  <h4>Thread-safe Server and Database</h4>
+                  <p>CS 0330<br/>Fall 2017</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/server-client.jpg" alt="">
             </a>
           </div>
         </div>
@@ -141,7 +165,7 @@
       <div class="container">
       <h2 class="text-center text-uppercase text-white">About</h2>
         <hr class="star-light mb-5" style= "border-color: #6633cc">
-        <div class="row">
+        <div class="row" style= "border-width:3px;border-color:#6633cc;border-style:solid;">
           <div class="col-lg-5 ml-auto">
             <h4 class="text-center text-uppercase text-white">Details</h4>
             <img class="img-fluid" src="img/portfolio/senior photo.jpg" height = "650" width = "900" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="">
@@ -150,7 +174,7 @@
             <p> My work shows a general trend in systems programming and Deep Learning, but I think I can make the most strides in quickening their adoption by novices and professionals alike. As an introvert raised to be an extrovert, a backend heavy programmer interested by UI/UX, I straddle lines. I'd like to one day use my emerging leadership capabilities and knack for design to make these enigmatic yet powerful technologies more accessible to those who could use them most. 
           </div>
           <div class="col-lg-1"></div>
-          <div class="col-lg-5 mr-auto" style= "border-width:3px;border-color:#6633cc;border-style:solid;">
+          <div class="col-lg-5 mr-auto">
           <h4 class="text-center text-uppercase text-white">Why Computer Science?</h4>
             <p class="lead">I once heard a saying that folks go into the computing field for two main reasons: A) Comfort, and/or B), Impact. While it's up to the individual to decide which is more important, my journey to computer science has been a curved one pulled by the latter -- A longing to make this home of ours a little bit brighter, however indirect it may be. </p>
             <p></p>
@@ -275,36 +299,55 @@
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto text-white">
-              <h2 class="text-center text-uppercase text-white">High Throughput Autonomous Proteomic Pipeline</h2>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/Proteomics workflow.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;"alt="">
-              <figcaption class="figure-caption text-white">How proteins go from machine to analysis</figcaption>
-              <h6></h6>
-              <h4 class="text-center text-uppercase">Details</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p>From June 5th to date, I've worked as a software developer for the Salomon Research Group, a Brown University Research Laboratory that looks into how we can better understand certain diseases via T-cell signaling. In particular, the exploration of what protein sites are phosphoryllated (read: activated) in certain cells at certain times, and how they fare with those changes. The gravity of breakthroughs in this field can't be understated: Greater understanding of proteins means a greater chance of solving threats such as a cancer and autoimmune disease, as well as the opportunity to repair or enhance our bodies at its most fundamental level.</p>
-              <p> Massive amounts of proteomic data are processed by the lab every day, so balancing speed and performance with our resources is a unique challenge. The simplified flow of computation is this: some number of files (often several GB) containing protein data come off the machines. We then take those and run it through an algorithm to match up our sequences of proteins against a known database, as well as perform extraction of other pertinent data. We then perform quantitation and filtering, and load our results into a relational database for our researchers to parse through.</p>
-              <img class="figure img-fluid mb-5" src="img/portfolio/proteomic matching.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;"alt="">
-               <figcaption class="figure-caption text-white">Image that shows how lab proteins are compared to database proteins</figcaption>
-              <p> For many years, our lab has been using a proprietary engine called MASCOT to take the protein files, match against the database, and give results. Yet the field has shifted. A new algorithm called Andromeda from the the Max Planck instute of Biochemistry supposedly gives more accurate results and a higher yield of data. My job was to investigate this code, and build an automated version of it that would fit into our already highly automated pipeline.</p>
-              <h4 class="text-center text-uppercase">Implementation</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p>I dove into our extensive Java code base, which was over a decade old and maintained by numerous past programmers, and definitely an exercise in of itself. I worked over the course of the summer to implement a fully automated pipeline for the laboratory that fit into the existing without altering the flow of control. I learned a great deal in the way of software engineering, scaling systems, XML parsing, file transferring, computational biology, and good old data scrubbing (to make sure that the results fit in nicely along the way). I also learned that specification is everything. At first I imagined the application having its own GUI for a researcher to create a parameter file. However, later iterations axed this concept of extensibility quickly. There could only be so many parameter files for the experiments we ran. Having a GUI to create them would be needlessly complicated, so I just pre-generated them and automatically pulled them from the database as needed. Practicality was king here, and I realized that a good software engineer needs to adapt to the needs of their users.</p>
-              <h4 class="text-center text-uppercase">Results</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p>Results were encouraging, to say the least. My automated version of the algorithm improved yield of critical data by 10-20%, but that number was sometimes as high as 40%. As my professor said: "It's like we hit oil!". That being said, this particular algorithm was slower than the old one. This is due in part to the fact that it generates much more data, but I've made it my goal to get the runtime as low as possible. I've since worked with multithreading in an attempt to try to speed things up, and even tried the hardware side to see the effect of Solid State Drives (faster reads/writes, which is particularly important here). Some approaches have worked, and some haven't, but that's just the name of the game. Optimization never stops.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+        <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4 text-white">High Throughput Autonomous Proteomic Pipeline
+        <small>Salomon Research Group</small>
+      </h1>
+      <hr class="star-light mb-6" style= "border-color: #6633cc">
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="img/portfolio/Proteomics workflow.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Flow Sketch">
+                <figcaption class="figure-caption text-white text-center">How proteomic data flows from inception to database</figcaption>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="img/portfolio/proteomic matching.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Homepage Sketch">
+                <figcaption class="figure-caption text-white text-center">How we identify proteins by searching against known examples (Step 2 from other picture)</figcaption>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
+
+        <div class="col-md-6 text-white">
+          <h3 class="my-3">Project Description</h3>
+          <p>Built a parallel, high throughput data pipeline for the Salomon Research Group, a lab dedicated to researching proteins in human T-cells to better understand cell signaling and immune responses. The goal was to implement a new searching algorithm described <a href="https://www.ncbi.nlm.nih.gov/pubmed/21254760">here</a> that could significantly improve retention of data when comparing peptides that we find in our data to a known database (in this case, known homo sapiens proteins). The pipeline took information directly from lab instruments, queued up samples, performed searching on the new search engine, extracted relevant information, loaded it into a relational database, and performed statisical analysis.</p>
+          <h3 class="my-3">Project Details</h3>
+          <ul>
+            <li>Series of programs (AutoUpdate, AutoSearch, AutoLoad, in Java) executed in parallel across multiple computers, communicating using the Java File Transfer system.</li>
+            <li>Increased data yield by 10-40%, depending on sample.</li>
+            <li>Now allows the lab to use state of the art Tandem Mass Tag data (TMT), in addition to existing experiment types</li>
+          </ul>
+        </div>
+
+      </div>
       </div>
     </div>
+
 
     <!-- Portfolio Modal 2 -->
     <div class="portfolio-modal mfp-hide" id="modal2">
@@ -312,72 +355,51 @@
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto text-white">
-              <h2 class="text-center text-uppercase text-white">Responsive Redesign of Hacker News</h2>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/hacker-news.png" style="border-width:3px;border-color:#6633cc;border-style:solid;"alt="">
-              <h4 class="text-center text-uppercase">Details</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p>The premise of this UI/UX design project was simple: Find a website outside of the 100 most popular, and try your hand at redesigning it (making sure that it's responsive along the way). No Wix, no bootstrap. Do your best with raw HTML/CSS. I thought about Hacker News, and how utilitarian it felt (probably by design). General design principle suggests one third pictures, one third text, and one third whitespace for a website. What if I tried it a more modern way? I thought that maybe users could benefit from a bit more visual stimuli. I conceived a top nav bar with a responsive, scrolling grid system, where each article has its own "box", complete with sampler text, image, title, and buttons. I figured that this could give users more info per unit, as well as being easier on the eyes.</p>
-              <img class="figure img-fluid mb-5" src="img/portfolio/hackernewsmain.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;"alt="">
-               <figcaption class="figure-caption text-white">Main screen of original hackernews</figcaption>
-               <h5></h5>
-              <p> As a disclaimer, I know that there are valid reasons behind sites like hackernews and reddit having long lists of links with minimal pictures. There are undoubtedly many fans who would have choice words for anybody trying to change them, but I thought it would be an interesting challenge.</p>
-              <h4 class="text-center text-uppercase">Implementation</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p> I sketched out five different web pages (home, user screen, comment screen, submit screen, and the jobs section), although I ended up redesigning the home screen. I made additions to each screen to decrease the severity of user errors, and generally make navigation a clearer experience.</p>
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="img/portfolio/wireframeHNall.jpg" alt="Flow Sketch">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/wireframeHNhome.jpg" alt="Homepage Sketch">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/wireframeHNcomment.jpg" alt="Comment Page Sketch">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/wireframeHNjobs.jpg" alt="Jobs PageSketch">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/wireframeHNUser.jpg" alt="User Page Sketch">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/wireframHNSubmit.jpg" alt="Submit Page Sketch">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+        <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4 text-white">XML Search Engine with Pagerank
+        <small>CS 180 (Spring 2017)</small>
+      </h1>
+      <hr class="star-light mb-6" style= "border-color: #6633cc">
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="img/portfolio/search.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Flow Sketch">
               </div>
-              <p>In making a higher fidelity version of the homepage, the main change was the decision to move from a vertical list of links to a more grid-like representation of articles, using a thumbnail and the first few lines of the article (or discussion) as a summary to entice the reader on the right. This is much more visually appealing to a user (and in some cases easier to parse due to its balance of elements) than a dump of links surrounded by whitespace. Navigation has been improved somewhat by moving the search bar to a more appropriate position on the top, instead of the bottom. Finally, a darker theme was chosen to give more contrast than its beige predecessor (see below). We make a tradeoff in terms of the total links available per page, but I think it's worth the sacrifice</p>
-              <img class="figure img-fluid mb-5" src="img/portfolio/HNHifi.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;"alt="">
-               <figcaption class="figure-caption text-white">High Fidelity Mockup (annotated)</figcaption>
-               <h5></h5>
-              <p>Bear in mind that it's not fully functional by any means, but more of a concept. Overall, I think it accomplishes what it sets out to do. Without the abstractive power of a framework like bootstrap, this gets the point across with just raw HTML/CSS, although it's not as polished given the limited time (~1 week). Despite gaining an appreciation for building a site from scratch, I think I can continue to improve  on this with the cleanliness provided by an existing tool (ie. bootstrap).</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="img/portfolio/proteomic matching.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Homepage Sketch">
+                <figcaption class="figure-caption text-white text-center">How we identify proteins by searching against known examples (Step 2 from other picture)</figcaption>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
+
+        <div class="col-md-6 text-white">
+          <h3 class="my-3">Project Description</h3>
+          <p>Built a search engine in Scala that parses a corpus of XML documents (in this case, wikipedia pages). Uses the concepts of term frequency, inverse document frequency, and Google's Pagerank algorithm to return up to 10 of the most relevant docs based on a user query from a REPL.</p>
+          <h3 class="my-3">Project Details</h3>
+          <ul>
+            <li>To use, download from Github and run the parser program from your terminal. By default, a medium sized corpus is used (~10000 wikipedia pages in XML).</li>
+            <li>Run with a command like |Insert here |. The "p" is for Pagerank usage, optionally. </li>
+            <li>This program was created for a Computer Science class at Brown University. We were given support code to stop and stem words in the corpus in order to standardize them, as well as some beginning structural code for building Pagerank. </li>
+          </ul>
+        </div>
+
+      </div>
       </div>
     </div>
 
@@ -387,44 +409,56 @@
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto text-white">
-              <h2 class="text-center text-uppercase text-white">Bash Command Line Implementation</h2>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/bash.jpeg" style="border-width:3px;border-color:#6633cc;border-style:solid;"alt="">
-              <h6></h6>
-              <h4 class="text-center text-uppercase">Details</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p><i>Disclaimer: I wrote this project for CS 0330, a class on computer systems/architecture. I have the code on a private repository as per my department's request for students showcasing projects. Leave me a message if you'd like to see it, and I'd be happy to share. All code and organization for this project is my own. No support functions were given. </i></p>
-              <p>The Bash CLI is a big deal for programmers. Simple, clean, and impressively powerful for managing our work. As a semester in Computer Systems began to ramp up, we were told to implement our own version of this shell that could replicate the functionality of the real one.</p>
-              <h4 class="text-center text-uppercase">Implementation</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p>Implementation over parts is key here. I began by diving into the most fundamental part: The REPL. After getting a working echo going, I started to parse the command line, ensuring that we're given valid input. I tokenized the buffer that I used to get user input into an array, and then checked it for file redirection. From there, I worked on handling builtin commands (cd, rm, ln, and exit), or otherwise passing off to a method that handled forking child processes and the call to execv (which is responsible for actually running the specified program). Basically, the flow of actual execution in the program.</p>
-              <p>But there was yet more to do. Testing all the way, I eventually had a working shell, but it couldn't handle signals or jobs very well yet. I then implemented a jobs list to handle multiple jobs (along with reaping zombie processes), signal handling to know when to quit, and moving jobs to the background or foreground. Although still not close to the real shell, it could function as one for most purposes. Overall, it was able to...</p>
-              <ul>
-                <li>Handle error prone input at all levels</li>
-                <li>Run any specified programs and its arguments successfully</li>
-                <li>Handle builtin commands (cd, lm, rn, exit, fg, bg)</li>
-                <li>Keep track of multiple jobs (either stopped or in the background)</li>
-                <li>Reap jobs</li>
-                <li>Perform file redirection</li>
-                <li>Move jobs to foreground or background</li>
-                <li>Handle signals</li>
-              </ul>
-              <img class="img-fluid mb-5" src="img/portfolio/ShellScreen.PNG" style="border-width:3px;border-color:#6633cc;border-style:solid;"alt="">
-              <figcaption class="figure-caption text-white">Some functionality shown for the finished product</figcaption>
-               <h3></h3>
-              <h4 class="text-center text-uppercase">Results</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p>This project definitely honed both my systems and software engineering skillsets. Looking forward, it would be nice to be able to do relative pathing for commands or show what directory you're currently in. This was more of a quality of life improvement and thus wasn't as important as main functionality for the project, but still something cool to consider!</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+        <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4 text-white">Bash Command Line Implementation
+        <small>CS 330 -- Computer Systems (Fall 2017)</small>
+      </h1>
+      <hr class="star-light mb-6" style= "border-color: #6633cc">
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="img/portfolio/bash.jpeg" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Flow Sketch">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="img/portfolio/ShellScreen.png" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Homepage Sketch">
+                <figcaption class="figure-caption text-white text-center">Example of what the shell can do (navigation, file redirection, job processing, etc.). </figcaption>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
+
+        <div class="col-md-6 text-white">
+          <h3 class="my-3">Project Description</h3>
+          <p>Used C to create a working version of the bash command line for a course on Computer Architecture/Systems. When downloaded, you can run it by first making an exectuable with the Makefile (type "make 33sh" when in the working directory), followed by ./33sh. Then try it out! Note that right now, it does not show the path of the current working directory. The cd command and navigation still work, however. </p>
+          <h3 class="my-3">What it can do</h3>
+          <ul>
+            <li>Handle error prone input at all levels</li>
+            <li>Run any specified programs and its arguments successfully</li>
+            <li>Handle builtin commands (cd, lm, rn, exit, fg, bg)</li>
+            <li>Keep track of multiple jobs (either stopped or in the background)</li>
+            <li>Reap jobs</li>
+            <li>Perform file redirection</li>
+            <li>Move jobs to foreground or background</li>
+            <li>Handle signals (either from keyboard or the system). </li>
+          </ul>
+        </div>
+
+      </div>
       </div>
     </div>
 
@@ -434,119 +468,156 @@
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto text-white">
-              <h2 class="text-center text-uppercase text-white">Startup Redesign: Guggy</h2>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/guggerino.png" style="border-width:3px;border-color:#6633cc;border-style:solid;"alt="">
-              <h6></h6>
-              <h4 class="text-center text-uppercase">Details</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p>For this UI/UX project, we formed a group of four (Lisa Phinisee, Joshua Shao, Sophia Spitulnik) to recreate a Y Combinator product based solely off of their mission statement. We chose Guggy, a company that states...</p>
-              <p><i>Our specialized messaging-oriented NLP engine allows Guggy to turn any text message into a funny, personalized GIF!</i></p>
-              <img class="img-fluid mb-5" src="img/portfolio/GuggyExample.PNG" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="">
-              <p>We split up and brainstormed. What about a "photoshop" for recommended gifs? What about one that picked gifs for you based on your text message to splice into a movie? Concepts below.</p>
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="img/portfolio/bop.jpg" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/gug2.JPG" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/gug3.JPG" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/gug4.JPG" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/gug5.JPG" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/portfolio/gug6.jpg" alt="">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+        <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4 text-white">Racket Interpreter in Ocaml
+        <small>CS 170 (Fall 2016)</small>
+      </h1>
+      <hr class="star-light mb-6" style= "border-color: #6633cc">
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="img/portfolio/racketlang.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Flow Sketch">
               </div>
-              <h4 class="text-center text-uppercase">Implementation</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p>Our eventual design was a product that uses the details of a text message to search for related gifs, and then allows you to customize that gif. Caption, filter, change the speed!</p>
-              <a href = "https://invis.io/Q8EP4IPUP">You can do a walkthrough by clicking here.</a>
-              <p></p>
-              <img class="img-fluid mb-5" src="img/portfolio/GruggyGif.gif" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="">
-              <img class="img-fluid mb-5" src="img/portfolio/GruggyGif2.gif" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="">
-              <p>The project culminated with more iteration: We presented our model to our peers, and received general feedback about how to clarify the user experience (adding captions to options, changing the export button) and how to improve the look and feel (changing color of navigation options, etc.). After getting even more clarifying advice from UserTesting.com, we felt that we were ready</p>
-              <h4 class="text-center text-uppercase">Implementation</h4>
-              <hr class="star-light mb-5" style= "border-color: #6633cc">
-              <p>We can't really understate how much changed between iterations. Oftentimes it's too easy to just work on a project on our own, without consulting others. We work until we're proud, and then call it "done". In reality, is anything ever truly "done"? I'd argue not. Whether in design or code, it's important to keep iterating and showing progress, not results, at each stage.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
+
+        <div class="col-md-6 text-white">
+          <h3 class="my-3">Project Description</h3>
+          <p>Used Ocaml to create a natural syntax parser that can take in valid expressions in the Racket programming language and evaluate them. Can handle complexity from basic arithmetic, to conditional expressions, to nested lambda functions.  </p>
+          <h3 class="my-3">Project Details</h3>
+          <ul>
+            <li>To use, download from Github and run the parser program from your terminal. By default, a medium sized corpus is used (~10000 wikipedia pages in XML).</li>
+            <li>Run with a command like |Insert here |. The "p" is for Pagerank usage, optionally. </li>
+            <li>This program was created for a Computer Science class at Brown University. We were given support code to stop and stem words in the corpus in order to standardize them, as well as some beginning structural code for building Pagerank. </li>
+          </ul>
+        </div>
+
+      </div>
       </div>
     </div>
 
     <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-      <div class="portfolio-modal-dialog bg-white">
+    <div class="portfolio-modal mfp-hide" id="modal5">
+      <div class="portfolio-modal-dialog" style = "background-color:#282828;">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+        <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4 text-white">Sequence to Sequence Machine Translation Model
+        <small>CS 1470 -- Deep Learning (Fall 2017)</small>
+      </h1>
+      <hr class="star-light mb-6" style= "border-color: #6633cc">
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="img/portfolio/seq2seq.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Flow Sketch">
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
+
+        <div class="col-md-6 text-white">
+          <h3 class="my-3">Project Description</h3>
+          <p>Used TensorFlow and the idea of Sequence to Sequence Machine Translation to translate from French sentences to English sentences. The idea is that we can feed windows of sentences as training material instead of individual words, using the scope provided by a Recurrent Neural Network (I used a GRU in particular to acheive this type of memory). </p>
+          <h3 class="my-3">Project Details</h3>
+          <ul>
+            <li>Currently trains off of ~1 million french sentences. A smaller test set is then used to see how the model performs, by taking the output of the network and comparing it to what it should have been</li>
+            <li>Word per word accuracy is roughly ~70%</li>
+            <li>Unfortunately can only take in a corpus at the moment, so it's not interactive. Feel free to peruse the architecture, however.</li>
+          </ul>
+        </div>
+
+      </div>
       </div>
     </div>
 
     <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-      <div class="portfolio-modal-dialog bg-white">
+    <div class="portfolio-modal mfp-hide" id="modal6">
+      <div class="portfolio-modal-dialog" style = "background-color:#282828;">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
         </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+        <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4 text-white">Thread Safe Server and Database
+        <small>CS 330 -- Computer Systems (Fall 2017)</small>
+      </h1>
+      <hr class="star-light mb-6" style= "border-color: #6633cc">
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="img/portfolio/server-client.jpg" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Flow Sketch">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="img/portfolio/ShellScreen.png" style="border-width:3px;border-color:#6633cc;border-style:solid;" alt="Homepage Sketch">
+                <figcaption class="figure-caption text-white text-center">Example of what the shell can do (navigation, file redirection, job processing, etc.). </figcaption>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
+
+        <div class="col-md-6 text-white">
+          <h3 class="my-3">Project Description</h3>
+          <p>Used C to create a working version of the bash command line for a course on Computer Architecture/Systems. When downloaded, you can run it by first making an exectuable with the Makefile (type "make 33sh" when in the working directory), followed by ./33sh. Then try it out! Note that right now, it does not show the path of the current working directory. The cd command and navigation still work, however. </p>
+          <h3 class="my-3">What it can do</h3>
+          <ul>
+            <li>Handle error prone input at all levels</li>
+            <li>Run any specified programs and its arguments successfully</li>
+            <li>Handle builtin commands (cd, lm, rn, exit, fg, bg)</li>
+            <li>Keep track of multiple jobs (either stopped or in the background)</li>
+            <li>Reap jobs</li>
+            <li>Perform file redirection</li>
+            <li>Move jobs to foreground or background</li>
+            <li>Handle signals (either from keyboard or the system). </li>
+          </ul>
+        </div>
+
+      </div>
       </div>
     </div>
 
