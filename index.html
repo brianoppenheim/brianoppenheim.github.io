@@ -20,7 +20,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,6 +33,29 @@
     <script>
     particlesJS.load('particles-js', 'js/particles.json', function() {
         console.log('callback - particles.js config loaded');
+    });
+    </script>
+
+    <script>
+     $(document).ready(function(){
+      $("#contactForm").submit(function(event){
+      event.preventDefault();
+      $.ajax({
+        url: "https://www.enformed.io/6jv9471c",
+        method: "post",
+        dataType: "json",
+        accepts: "application/json",
+        data: $("#contactForm").serialize(),
+        success: function(){
+          console.log("Your form was successfully received!");
+          // Show a success message here...
+        },
+        error: function(){
+          console.log("Failure. Try again.");
+          // Show an error message here...
+        }
+      });
+      });
     });
     </script>
 
@@ -194,7 +217,9 @@
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <form action="https://www.enformed.io/6jv9471c" method = "POST">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+            <form name="sentMessage" id="contactForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
@@ -691,8 +716,8 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Contact Form JavaScript -->
-<!--     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script> -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <!-- <script src="js/contact_me.js"></script> -->
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
